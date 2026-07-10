@@ -54,7 +54,7 @@ export const siteConfig = {
   whatsapp: "+92 320 5421692",
   url: "https://intellibotcreation.com",
   social: {
-    linkedin: "https://linkedin.com/company/intellibotcreation",
+    linkedin: "https://www.linkedin.com/company/intellibot-creation/?viewAsMember=true",
     github: "https://github.com/MUHAMMADSHAHRUKH459",
     twitter: "https://twitter.com/intellibotcreation",
     facebook: "https://facebook.com/intellibotcreation",
