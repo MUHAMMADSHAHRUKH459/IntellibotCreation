@@ -17,6 +17,8 @@ import type {
   ProcessStep,
   ValueItem,
   NavLink,
+  StatItem,
+  TestimonialItem,
 } from "@/types";
 
 export const siteConfig = {
@@ -261,4 +263,30 @@ export const projectCategories: (Project["category"] | "All")[] = [
   "All",
   "Business Systems",
   "AI & E-commerce",
+];
+
+export const stats: StatItem[] = [
+  { label: "Projects Completed", value: 15, suffix: "+" },
+  { label: "Satisfied Clients", value: 10, suffix: "+" },
+  { label: "Custom Workflows Built", value: 50, suffix: "+" },
+  { label: "Years Experience", value: 3, suffix: "+" },
+];
+
+export const testimonials: TestimonialItem[] = [
+  {
+    id: "1",
+    name: "Memon Welfare Foundation",
+    role: "President",
+    company: "MWF",
+    quote: "Intellibot Creation developed our foundation management system which transformed how we handle memberships and voting.",
+    rating: 5,
+  },
+  {
+    id: "2",
+    name: "NoorParts",
+    role: "Director",
+    company: "NoorParts",
+    quote: "The AI voice-based sales entry system has significantly improved our workflow efficiency and speed.",
+    rating: 5,
+  },
 ];

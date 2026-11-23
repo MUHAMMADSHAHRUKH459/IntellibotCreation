@@ -107,9 +107,17 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 sm:flex-row">
-          <p className="text-xs text-muted">
-            © {year} {siteConfig.name}. Founded by {siteConfig.founder}. All rights reserved.
-          </p>
+          <div className="flex flex-col items-center gap-4 sm:flex-row sm:gap-8">
+            <p className="text-xs text-muted">
+              © {year} {siteConfig.name}. Founded by {siteConfig.founder}. All rights reserved.
+            </p>
+            <Link
+              href="/privacy-policy"
+              className="text-xs text-muted transition-colors hover:text-accent-light"
+            >
+              Privacy Policy
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
